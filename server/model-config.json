@@ -42,5 +42,9 @@
   "ResearchGoal": {
     "dataSource": "mysql",
     "public": true
+  },
+  "habit": {
+    "dataSource": "mysql",
+    "public": true
   }
 }
