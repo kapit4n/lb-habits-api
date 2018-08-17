@@ -46,5 +46,9 @@
   "habit": {
     "dataSource": "mysql",
     "public": true
+  },
+  "habitLog": {
+    "dataSource": "mysql",
+    "public": true
   }
 }
