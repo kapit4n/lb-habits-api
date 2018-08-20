@@ -35,14 +35,6 @@
     "dataSource": "mysql",
     "public": false
   },
-  "Research": {
-    "dataSource": "mysql",
-    "public": true
-  },
-  "ResearchGoal": {
-    "dataSource": "mysql",
-    "public": true
-  },
   "habit": {
     "dataSource": "mysql",
     "public": true

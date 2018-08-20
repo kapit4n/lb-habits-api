@@ -6,7 +6,7 @@ var async = require('async');
 
 module.exports = function (app) {
   var mysqlDB = app.dataSources.mysql;
-  var lbTables = ['User', 'ACL', 'RoleMapping', 'Role', 'Research', 'ResearchGoal', 'habit', 'habitLog'];
+  var lbTables = ['User', 'ACL', 'RoleMapping', 'Role', 'habit', 'habitLog'];
 
   mysqlDB.autoupdate(lbTables, function (err) {
     if (err) {
