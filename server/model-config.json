@@ -13,8 +13,10 @@
       "./mixins"
     ]
   },
-  "User": {
-    "dataSource": "mysql"
+  "user": {
+    "dataSource": "mysql",
+    "public": true,
+    "options": {}
   },
   "AccessToken": {
     "dataSource": "mysql",
@@ -42,5 +44,8 @@
   "habitLog": {
     "dataSource": "mysql",
     "public": true
+  },
+  "Email": {
+    "dataSource": "emailDs"
   }
 }
